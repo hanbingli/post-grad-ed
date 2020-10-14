@@ -1,31 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import './LoginButton.css';
+import LoginModal from '../modals/LoginModal'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPlus as faPlus } from '@fortawesome/free-solid-svg-icons';
 
-const LoginButton = () =>{
 
-    const loginHandler = () =>{
-
-    }
-    
+const LoginButton = props =>{
+   
 
 
     return(
-        <div classname='loginButtonContainer'>
-
-            <button
-                className="loginButton"
-                onClick={loginHandler}>
-                    Login/Register
-            </button>
-           
-            
-
-        </div>
-
+                <button
+                    className="loginButton"
+                    onClick={props.onClick}>
+                     Login 
+                </button>
 
     )
 }

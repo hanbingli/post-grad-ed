@@ -1,15 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import './AddItem.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus as faPlus } from '@fortawesome/free-solid-svg-icons';
 
-const AddItem = () =>{
-
-    const addItemHandler = () =>{
-
-    }
+const AddItem = props =>{
+   
     
 
 
@@ -19,7 +16,7 @@ const AddItem = () =>{
                      icon={faPlus}
                      size="2x"
                      className="AddItemButton"
-                     onClick={addItemHandler}
+                     onClick={props.onClick}
                    />
 
         </div>

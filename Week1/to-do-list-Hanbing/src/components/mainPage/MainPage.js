@@ -15,8 +15,8 @@ const MainPage = () => {
         
         },
         {id:'02', 
-        tag:'important', 
-        content:'technical assignment2', 
+        tag:'remote', 
+        content:'assignment2', 
         date:'2020-10-13',
         completed:true,
         
@@ -29,7 +29,7 @@ const MainPage = () => {
     return (
       <div className='mainContainer'>
           <div className='TagBarContainer'>
-             <TagBar className = 'TagBar' />
+             <TagBar className = 'TagBar' items={dummyList}/>
           </div>
           <div className='ListContainer'>
              <List className = 'List' items={dummyList} />

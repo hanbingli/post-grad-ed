@@ -3,7 +3,8 @@
     height: 4 rem;
     cursor: pointer;
     padding: 1rem;
-    border: 1px solid red;
+    border: none;
+
     background-color: transparent;
     z-index: 0;
 }

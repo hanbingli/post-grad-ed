@@ -1,5 +1,4 @@
-
-.loginButton{
+.registerButton{
     cursor: pointer;
     background-color: transparent;
     color: white;
@@ -7,9 +6,9 @@
     font-weight: bold;
     padding:0.5rem;
     border: none;
-
+   
 }
-.loginButton:hover{
+.registerButton:hover{
     Background-color: white;
     border-radius: 5px;
     color: #092A48;

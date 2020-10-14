@@ -1,10 +1,10 @@
 
 .AddItemButton{
     margin:0;
-    padding: 0rem 1rem;
+    padding: 0.5rem 2rem;
     cursor: pointer;
     color: white;
-    border: 1px solid red;
+
 
 }
 .AddItemButton:hover{
